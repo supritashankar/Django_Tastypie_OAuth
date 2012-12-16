@@ -12,6 +12,5 @@ class EmployeeResource(ModelResource):
     class Meta:
         queryset = Employee.objects.all()
         resource_name = 'employee'
-        #excludes = ['status','supplier_rate']
-        #authentication = OAuthAuthentication()
+        authentication = OAuthAuthentication()
 

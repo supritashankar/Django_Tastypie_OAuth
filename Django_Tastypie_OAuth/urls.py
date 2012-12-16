@@ -11,14 +11,6 @@ v1_api.register(UserResource())
 v1_api.register(EmployeeResource())
 
 urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'Django_Tastypie_OAuth.views.home', name='home'),
-    # url(r'^Django_Tastypie_OAuth/', include('Django_Tastypie_OAuth.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     (r'^api/', include(v1_api.urls)),
 )
