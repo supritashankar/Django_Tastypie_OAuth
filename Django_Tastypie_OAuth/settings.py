@@ -120,6 +120,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'south',
+    'oauth_provider',
     'employee',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
