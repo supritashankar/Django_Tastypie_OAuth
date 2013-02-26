@@ -22,7 +22,7 @@ Step 2: Request for an unauthorized request token
         To illustrate with an example, the url would look somewhat like this:
         /oauth/request_token/?oauth_version=1.0&oauth_nonce=3a2fc01d88c298dcd4021ce67674f815&oauth_timestamp=1354901582&
         oauth_consumer_key=key&oauth_signature_method=PLAINTEXT&oauth_signature=secret%26
-        &oauth_callback=http://wwstay.com&scope=booking
+        &oauth_callback=http://xxxxxxx.com&scope=booking
         
         This will download a text file, containing the oauth_token_key and oauth_token_secret.
         
@@ -32,7 +32,7 @@ Step 3: Authorization
         oauth_callback: *The url to hit after authorization*
         
         To illustrate with an exmaple, the url would look something like this:
-        /oauth/authorize/?oauth_token=856b178d67bc4aa4831d840edea5dee4&oauth_callback=http://wwstay.com
+        /oauth/authorize/?oauth_token=856b178d67bc4aa4831d840edea5dee4&oauth_callback=http://xxxxxx.com
         
         If successful, it will return http-status='200'
         

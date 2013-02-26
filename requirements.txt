@@ -1,0 +1,7 @@
+Django>=1.4
+oauth2
+django-tastypie
+south
+sphinx
+django-discover-runner
+factory_boy
